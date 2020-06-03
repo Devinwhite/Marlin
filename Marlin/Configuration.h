@@ -730,8 +730,8 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 93 } // Stock Creality
-//#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 415 } // Creality with Bondtech extruder
+//#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 93 } // Stock Creality
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 415 } // Creality with Bondtech extruder
 
 /**
  * Default Max Feed Rate (mm/s)
@@ -1064,8 +1064,8 @@
 // @section extruder
 
 // For direct drive extruder v9 set to true, for geared extruder set to false.
-#define INVERT_E0_DIR false // Stock Creality CR-10 5S
-//#define INVERT_E0_DIR true // Creality with Bondtech extruder
+//#define INVERT_E0_DIR false // Stock Creality CR-10 5S
+#define INVERT_E0_DIR true // Creality with Bondtech extruder
 #define INVERT_E1_DIR false
 #define INVERT_E2_DIR false
 #define INVERT_E3_DIR false
